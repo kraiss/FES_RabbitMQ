@@ -2,7 +2,7 @@
 
 This repository contains training material for RabbitMQ most part inspired from [RabbitMQ tutorials](https://www.rabbitmq.com/getstarted.html)
 
-If you were not part of this training, I advise you to use it instead.
+If you were not part of this training, I advise you to use [RabbitMQ tutorials](https://www.rabbitmq.com/getstarted.html) instead.
 
 ## Step 0: Set up RabbitMQ
 
