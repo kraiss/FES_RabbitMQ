@@ -2,7 +2,7 @@
 
 ## Cancel signal
 
-## Shutdown signal
+ Add a listener to the cancel signal on the channel to recreate the queue automatically when the delete it from the interface
 
 ## PAUSE: Other signals
 
