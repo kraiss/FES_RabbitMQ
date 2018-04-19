@@ -4,7 +4,7 @@ In this step we will see how consumers behave and compete
 
 ### Consumers
 
- * It is time! Let's rewrite your consumer as a true consumer
+ * It's time! Let's rewrite your consumer as a true consumer
  * Run at least two different consumers
  * Then publish messages to the queue
     * What is happening ?

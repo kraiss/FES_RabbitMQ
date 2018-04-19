@@ -1,4 +1,4 @@
-# Step 4: Clustering
+# Step 5: Clustering
 
 ## Set up a cluster
 
@@ -6,4 +6,4 @@
 
 ## Dead ends and pitfalls
 
-[<- Previous](/step3_routing/README.md) 
+[<- Previous](/step4_signals/README.md) 

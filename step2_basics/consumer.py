@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 import pika
 
+
 class Step2Consumer:
     def __init__(self, id):
         self.id = id
