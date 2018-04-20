@@ -11,7 +11,7 @@ In this step we will see how consumers behave and compete
 
 ### PAUSE: What is happening ?
 
-## Durability and message persistence
+### Durability and message persistence
 
 **Durability:**
  * Create a durable queue
