@@ -11,6 +11,20 @@ In this step we will see how consumers behave and compete
 
 ### PAUSE: What is happening ?
 
+## Durability and message persistence
+
+**Durability:**
+ * Create a durable queue
+ * Send a message to the queue
+ * Restart the cluster (for Windows user, use the Services panel)
+ * What happened ?
+ 
+**Persistence**
+ * Keep your durable queue
+ * Send a **persistent** message to the queue using publish properties
+ * Restart the cluster
+ * What changed ?
+
 ### PAUSE: Exchanges
 
 ### Fanout Exchange
