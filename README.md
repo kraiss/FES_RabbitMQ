@@ -18,7 +18,7 @@ If you were not part of this training, I advise you to use [RabbitMQ tutorials](
     
 **When everyone will be ready, we will take a tour of the Management UI**
 
-## Python FTW
+## Python FTW !!
 
 For every following steps, code samples will be provided in Python.
 
@@ -26,11 +26,11 @@ If you want to run these samples, make sure Python installed and install [Pika](
 
 On Windows, you can use [Ubuntu Subsytem](https://www.omgubuntu.co.uk/2016/08/enable-bash-windows-10-anniversary-update)
 
-```sh
+```bash
 # Install pip and pika on Ubuntu or Ubuntu Subsystem
-$ sudo apt update
-$ sudo apt install python-pip
-$ pip install pika
+sudo apt update
+sudo apt install python-pip
+pip install pika
 ```
 
 Note: The code sample have been tested with Python 2.7 and pika 0.11.2

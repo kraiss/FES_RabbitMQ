@@ -30,6 +30,7 @@ In this step we will see how consumers behave and compete
 ### Fanout Exchange
 
  * Declare a fanout exchange and two queues bind to the exchange
+    * You can call queue_bind(..) on the channel to bind an exchange and to a queue
  * Publish **to the exchange** instead of the queue
     * What is happening ?
 
