@@ -1,9 +1,11 @@
 # Step 5: Clustering
 
-### Set up a cluster
+### DEMO !!
 
-### Monitoring
+#### Create the cluster with a RAM node
 
-### PAUSE: Dead ends and pitfalls
+#### Monitor the cluster
 
-[<- Previous](/step4_signals/README.md) 
+#### Dead ends and pitfalls with clustering
+
+[<- Previous](/step4_advanced/README.md) 
