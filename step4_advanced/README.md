@@ -6,4 +6,11 @@
 
 ### PAUSE: Other signals
 
+### Virtual hosts and permissions
+
+ * On the Management Plugin, go on the `Admin` tab
+ * Create a virtual host 
+ * Create a user with permissions only for the vhost
+ * Make a publisher-consumer work on that vhost
+
 [<- Previous](/step3_routing/README.md) :: [Next ->](/step5_clustering/README.md)
