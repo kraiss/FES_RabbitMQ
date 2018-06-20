@@ -1,11 +1,20 @@
 # Step 5: Clustering
 
-### DEMO !!
+### Create the RabbitMQ cluster
 
-#### Create the cluster with a RAM node
+```
+docker-compose exec rabbit1 bash
+~# rabbitmqctl -n rabbit@rabbit1 stop_app
+~# rabbitmqctl -n rabbit@rabbit1 join_cluster rabbit@rabbit2
+~# rabbitmqctl -n rabbit@rabbit1 start_app
+```
 
 #### Monitor the cluster
 
-#### Dead ends and pitfalls with clustering
+ * Try to shutdown/restart your rabbit nodes and see how the monitoring react
+    * Stop the first node ```docker-compose stop rabbit1```
+    * Start the first node ```docker-compose start rabbit1```
+
+#### PAUSE: Dead ends and pitfalls with HA mode
 
 [<- Previous](/step4_advanced/README.md) 

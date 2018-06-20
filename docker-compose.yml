@@ -1,0 +1,27 @@
+version: "3.6"
+services:
+  rabbit1:
+    hostname: "rabbit1"
+    image: rabbitmq:management-alpine
+    environment:
+      - RABBITMQ_ERLANG_COOKIE=ABCDEFGHIJKLM1234567
+    networks:
+      - rabbitmq_cluster
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+
+  rabbit2:
+    hostname: "rabbit2"
+    image: rabbitmq:management-alpine
+    environment:
+      - RABBITMQ_ERLANG_COOKIE=ABCDEFGHIJKLM1234567
+    networks:
+      - rabbitmq_cluster
+    ports:
+      - "5673:5672"
+      - "15673:15672"
+
+networks:
+  rabbitmq_cluster:
+    driver: bridge

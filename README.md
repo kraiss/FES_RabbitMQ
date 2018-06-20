@@ -4,19 +4,19 @@ This repository contains training material for RabbitMQ most part inspired by [R
 
 If you were not part of this training, I advise you to use [RabbitMQ tutorials](https://www.rabbitmq.com/getstarted.html) instead.
 
-## Step 0: Set up RabbitMQ
+## Step 0: Set up RabbitMQ over Docker
 
-1. Install Erlang (RabbitMQ runs on Erlang): http://www.erlang.org/downloads
-    * Note: Check that `ERLANG_HOME` is correctly define (example on Windows: `C:\Program Files (x86)\erl6.4`)
-2. Install the server: https://www.rabbitmq.com/download.html
-3. Install Management Plugin: https://www.rabbitmq.com/management.html
-    * Note: On Windows you may have to go in RabbitMQ installation directory to run the installation command
-4. Test that everything works fine:
+1. Install Docker !!
+2. Start RabbitMQ. In this folder, run the command : ```docker-compose up -d```  
+  * Note: After the training, you can stop/clean everything with: ```docker-compose down```  
+3. Test that everything works fine:
     * Open `http://localhost:15672/` in a browser, you should see the authentication page
     * Authenticate with `guest` / `guest` (It's RabbitMQ Management plugin default user/password)
-    * In `Nodes`, you can see cluster state. If all is green, you are ready to go!    
+    * In `Nodes`, you can see cluster state. If all is green, you are ready to go!  
+
+## PAUSE: What are we running with docker?
     
-**When everyone will be ready, we will take a tour of the Management UI**
+## PAUSE: Tour of the Management UI
 
 ## Python FTW !!
 
@@ -29,10 +29,10 @@ On Windows, you can use [Ubuntu Subsytem](https://www.omgubuntu.co.uk/2016/08/en
 ```bash
 # Install pip and pika on Ubuntu or Ubuntu Subsystem
 sudo apt update
-sudo apt install python-pip
-pip install pika
+sudo apt install python3-pip
+python -m pip install pika
 ```
 
-Note: The code sample have been tested with Python 2.7 and pika 0.11.2
+Note: The code sample have been tested with Python 3.5 and pika 0.12
 
 [Next ->](/step1_hello_world/README.md)
